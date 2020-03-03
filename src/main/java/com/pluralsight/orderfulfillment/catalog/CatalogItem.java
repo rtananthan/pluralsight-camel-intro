@@ -90,6 +90,7 @@ public class CatalogItem implements Serializable {
    @Override
    public String toString() {
       StringBuilder builder = new StringBuilder();
+      builder.append("str");
       builder.append("CatalogItem [id=");
       builder.append(id);
       builder.append(", ");
